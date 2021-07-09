@@ -20,10 +20,6 @@ public class EmployeeRestAppApplication {
 		employeeRepository.save(new Employee("UVW","Programming",3232311));
 		employeeRepository.save(new Employee("GHI","Security","2211121"));
 		
-		public List<Employee> findAllOrderBySalaryAsc() {        
-        return employeeRepository.findAllOrderBySalaryAsc();
-    }
-		
 	}
 
 }
