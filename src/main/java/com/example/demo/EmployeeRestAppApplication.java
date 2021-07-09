@@ -15,10 +15,10 @@ public class EmployeeRestAppApplication {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		employeeRepository.save(new Employee("ABC","Devops",3434323));
-		employeeRepository.save(new Employee("XYZ","Security",4323234));
-		employeeRepository.save(new Employee("UVW","Programming",3232311));
-		employeeRepository.save(new Employee("GHI","Security",2211121));
+		employeeRepository.save(new EmployeeRest("ABC","Devops",3434323));
+		employeeRepository.save(new EmployeeRest("XYZ","Security",4323234));
+		employeeRepository.save(new EmployeeRest("UVW","Programming",3232311));
+		employeeRepository.save(new EmployeeRest("GHI","Security",2211121));
 		
 	}
 
